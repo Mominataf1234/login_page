@@ -13,7 +13,7 @@ const cors = require("cors");
 
 //IMPORT ROUTES
 
-const authRoute = require("./routes/auth/auth");
+const authRoute = require("./auth.js");
 
 //ACCESSING THE ENVIRONMENT VARIABLES dotenv.config();
 
